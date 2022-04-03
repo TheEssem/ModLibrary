@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include <QCheckBox>
+#include <QtWidgets/QCheckBox>
 #include <QMouseEvent>
 
 class QCheckBoxEx: public QCheckBox

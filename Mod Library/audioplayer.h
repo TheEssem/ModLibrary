@@ -43,7 +43,7 @@ public slots:
 		Pa_Initialize();
 		PaStream * stream = 0;
 		PaStreamParameters streamparameters;
-		std::memset(&streamparameters, 0, sizeof(PaStreamParameters));
+		memset(&streamparameters, 0, sizeof(PaStreamParameters));
 		streamparameters.device = Pa_GetDefaultOutputDevice();
 		streamparameters.channelCount = 2;
 		streamparameters.sampleFormat = paFloat32 | paNonInterleaved;

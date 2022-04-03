@@ -13,8 +13,8 @@
 #include <QDebug>
 #include <QSettings>
 #include <libopenmpt/libopenmpt.hpp>
-#include <chromaprint/src/chromaprint.h>
-#include <chromaprint/src/utils/base64.h>
+#include <chromaprint.h>
+#include "base64.h"
 
 #define SCHEMA_VERSION 1
 #define VER_HELPER_STRINGIZE(x) #x
@@ -344,7 +344,7 @@ ModDatabase::AddResult ModDatabase::PrepareQuery(const QString &path, QSqlQuery 
 		QByteArray notes;
 		const auto patternHash = BuildNoteString(mod, notes);
 		query.bindValue(":note_data", notes);
-		query.bindValue(":pattern_hash", patternHash);
+		query.bindValue(":pattern_hash", QVariant::fromValue(patternHash));
 
 		ChromaprintContext *chromaprint_ctx = chromaprint_new(CHROMAPRINT_ALGORITHM_DEFAULT);
 		const int32_t samplerate = 22050;

@@ -56,18 +56,6 @@
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
         <widget class="QPushButton" name="play">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>81</width>
-           <height>23</height>
-          </size>
-         </property>
          <property name="text">
           <string>&amp;Play</string>
          </property>
@@ -120,18 +108,6 @@
        </item>
        <item>
         <widget class="QPushButton" name="openFile">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>81</width>
-           <height>23</height>
-          </size>
-         </property>
          <property name="text">
           <string>&amp;Open File</string>
          </property>
@@ -145,18 +121,6 @@
        </item>
        <item>
         <widget class="QPushButton" name="close">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>81</width>
-           <height>23</height>
-          </size>
-         </property>
          <property name="text">
           <string>&amp;Close</string>
          </property>

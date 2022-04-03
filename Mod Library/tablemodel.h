@@ -9,10 +9,10 @@
 
 #pragma once
 #include <QAbstractTableModel>
-#include <QSqlQuery>
+#include <QtSql/QSqlQuery>
 #include <cstdint>
 #include <algorithm>
-#include <chromaprint/src/chromaprint.h>
+#include <chromaprint.h>
 #include <QCollator>
 #include <QDateTime>
 #include <QFileInfo>

@@ -10,8 +10,8 @@
 #include "modinfo.h"
 #include "database.h"
 #include "audioplayer.h"
-#include <QMenu>
-#include <QMessageBox>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMessageBox>
 #include <QClipboard>
 
 

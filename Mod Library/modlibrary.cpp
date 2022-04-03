@@ -13,15 +13,15 @@
 #include "about.h"
 #include "database.h"
 #include "tablemodel.h"
-#include <QMessageBox>
-#include <QFileDialog>
+#include <QtWidgets/QMessageBox>
+#include <QtWidgets/QFileDialog>
 #include <QThread>
-#include <QProgressDialog>
+#include <QtWidgets/QProgressDialog>
 #include <QClipboard>
 #include <QSettings>
 #include <utility>
 #include <libopenmpt/libopenmpt.hpp>
-#include <chromaprint/src/chromaprint.h>
+#include <chromaprint.h>
 #ifdef _MSC_VER
 #include <smmintrin.h>
 #endif
